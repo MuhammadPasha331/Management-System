@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0;
+}
+
+.App {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.auth,
+.form,
+.task-list,
+.details {
+  margin: 20px 0;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+}
+
+input,
+textarea,
+select,
+button {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+.task-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.task-card button {
+  margin-right: 10px;
+}
+
+.progress {
+  background: #ddd;
+  height: 25px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.bar {
+  background: green;
+  color: white;
+  height: 100%;
+  text-align: center;
+  line-height: 25px;
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+  
+  input,
+  textarea,
+  select,
+  button {
+    font-size: 14px;
+  }
+}
