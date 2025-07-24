@@ -61,7 +61,7 @@ export default function App() {
     try {
       await API.delete(`/tasks/${id}`);
       await fetchTasks();
-      setTaskToEdit(null); // Clear form after deletion
+      setTaskToEdit(null); 
     } catch (err) {
       console.error('Error deleting task:', err);
     }
@@ -95,7 +95,7 @@ const theme = getTheme(mode);
     position: 'fixed',
     top: window.innerWidth < 600 ? 72 : 80,
     right: 16,
-    zIndex: 1301, // Higher than MUI AppBar (default is 1100)
+    zIndex: 1301, 
     backgroundColor: theme.palette.background.paper,
     borderRadius: '20px',
     padding: '4px 8px',
