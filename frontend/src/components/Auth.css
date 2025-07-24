@@ -1,0 +1,131 @@
+.auth:hover {
+  transform: scale(1.02);
+  background-color: #f5faff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+input:hover,
+select:hover {
+  transform: scale(1.02);
+  background-color: #eef5ff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.auth-submit:hover {
+  transform: scale(1.05);
+  background-color: #333;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.google:hover {
+  transform: scale(1.15);
+  background-color: #db4437; /* Google red */
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.facebook:hover{
+transform: scale(1.15);
+background-color: #3b5998;
+color: white;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+cursor: pointer;
+}
+
+.apple:hover {
+  transform: scale(1.15);
+  background-color: #000; 
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right,rgba(46, 96, 171, 0.72),rgb(63, 69, 195));
+}
+
+.auth-card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.auth-icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.auth-subtext {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+form input,
+form select {
+  margin: 10px 0;
+  padding: 12px;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.auth-submit {
+  background: black;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.auth-divider {
+  margin: 20px 0 10px;
+  color: #888;
+  font-size: 14px;
+}
+
+.auth-socials button {
+    display: inline-block;
+  margin: 0 5px;
+  font-size: 18px;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.auth-switch {
+  margin-top: 20px;
+  background: none;
+  border: none;
+  color: #555;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.auth-error {
+  color: red;
+  background: #ffe5e5;
+  border: 1px solid red;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}

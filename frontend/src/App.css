@@ -1,0 +1,108 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0;
+}
+
+.App {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.auth,
+.form,
+.task-list,
+.details {
+  margin: 20px 0;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+}
+
+input,
+textarea,
+select,
+button {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+.task-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.task-card button {
+  margin-right: 10px;
+}
+
+.progress {
+  background: #ddd;
+  height: 25px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.bar {
+  background: green;
+  color: white;
+  height: 100%;
+  text-align: center;
+  line-height: 25px;
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+  
+  input,
+  textarea,
+  select,
+  button {
+    font-size: 14px;
+  }
+}
+.modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex; justify-content: center; align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+}
+
+/* styles.css or index.css */
+.notification-popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #333;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  z-index: 1000;
+  animation: fadeInOut 5s ease forwards;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-20px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-20px); }
+}
